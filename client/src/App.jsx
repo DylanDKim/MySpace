@@ -13,9 +13,9 @@ import { TitleHeader, RightFlex, DownFlex } from './components/styles/main.js'
 function App(props) {
   const [name, setName] = useState('Dylan Kim');
   const [nameSet, setNameSet] = useState(false);
-  useEffect(() => {
-    axios.post('https://api.instagram.com/oauth/access_token')
-  })
+  // useEffect(() => {
+  //   axios.post('https://api.instagram.com/oauth/access_token')
+  // })
 
   useEffect(() => {
     console.log(widow.location.pathname);
