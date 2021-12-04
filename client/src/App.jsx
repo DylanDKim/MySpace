@@ -18,7 +18,7 @@ function App(props) {
   // })
 
   useEffect(() => {
-    console.log(widow.location.pathname);
+    console.log(window.location.pathname);
   })
 
   return (
