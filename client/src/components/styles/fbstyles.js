@@ -3,31 +3,27 @@ import styled from 'styled-components';
 const SocialHeader=styled.div`
   color: grey;
   font-size: 18;
-  margin-left: .5em;
+  margin: .5em 0em 1em .5em;
+  padding-top: .5em;
 `;
 
 const FBSection = styled.div`
   width: 18em;
-  height: 17em;
-  margin: .5em .5em .5em .5em;
-  flex-direction: column;
-  background-color: white;
-`;
-
-const CellBoxDown = styled.div`
-  width: 17em;
-  height: 4.4em;
-  background-color:pink;
-  margin: .1em 0em .1em 0em;
-  border: 1px solid black;
-  flex-direction: column;
-  padding: .3em .5em .3em .5em;
-`;
-
-const CellBoxAcross=styled.div`
-  display:flex;
+  height: 14em;
+  margin: .5em .5em 1em .5em;
   flex-direction: row;
-  justify-content: space-between;
+  background-color: white;
+
+`;
+
+
+const CellBoxDown = styled.img`
+  width: 4.2em;
+  height: 4.2em;
+  margin: .5em .5em .5em .5em;
+  flex-direction: row;
+  flex-wrap: wrap;
+  object-fit:cover;
 `;
 
 
@@ -50,5 +46,12 @@ const CellDate=styled.div`
   font-size:12px;
 `;
 
+const GallerySection=styled.div`
+  width: 18em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+`;
 
-export { SocialHeader, FBSection, CellBoxDown, CellBoxAcross, CellHeader, CellText, CellDate };
+
+export { SocialHeader, FBSection, GallerySection, CellBoxDown, CellHeader, CellText, CellDate };

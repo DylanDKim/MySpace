@@ -3,3 +3,6 @@
 
 #module
 node_modules
+
+#unsplash auth token
+config.js
